@@ -575,7 +575,6 @@ function renderStage() {
   $("chunkCount").textContent = chunks.length || "—";
   $("contextCount").textContent = hasRun ? selected.length : "—";
 
-  renderFlow();
 
   const showChunks = chunks.length ? chunks : makeChunks(sourceText);
 
